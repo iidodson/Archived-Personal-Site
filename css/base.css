@@ -142,7 +142,7 @@ html {
 }
 
 .header-subhead {
-  font-weight: 100;
+  font-weight: 300;
   margin: 0;
   font-size: 2.188rem;
   line-height: 130%;
@@ -192,7 +192,7 @@ html {
 .section--link {
   color: white;
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
   position: relative;
   padding-bottom: 10px;
