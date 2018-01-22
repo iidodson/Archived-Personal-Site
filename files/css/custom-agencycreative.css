@@ -1,0 +1,16 @@
+
+
+/* Change Page Loader Color */
+#page-loader  { background:linear-gradient(to right, #0acffe 0%, #495aff 100%) !important; }
+
+
+/* Change Header Color */
+header, #menu-inner, #header-actions-overlay { background: #0ACFFE !important; }
+
+
+/* Change Footer Border */
+footer { border: none !important; background:linear-gradient(to right, #0acffe 0%, #495aff 100%) !important; }
+
+
+/* Change portfolio thumb hover color */
+.thumb-hover.overlay-color::before { background: rgba(30,70,230,0.8) !important; }
