@@ -564,7 +564,7 @@ h6 small {
 	.loading-end #page-content { min-height: auto; } 	/*workaround for isotope content (without other content) when scrollbar is active*/
 
 .wrapper, .wrapper-small, .wrapper-big {
-	width: 1200px;
+	width: 1090px;
 	margin: 0 auto;
 	max-width: calc(100% - 80px);
 	}
@@ -1239,8 +1239,7 @@ header #logo img#dark-logo + img#light-logo {
 #footer {
 	background: #ffffff;
 	border-top: 1px solid rgba(0,0,0,0.13);
-	width: calc(100% - 80px);
-	margin-left: 80px;
+
 	}
 	header.header-right ~ #footer { margin-left: 0px;}
 	#footer.text-light { background: linear-gradient(to right, #0acffe 0%, #495aff 100%); border-color: rgba(255,255,255,0.21); }
@@ -1256,11 +1255,11 @@ header #logo img#dark-logo + img#light-logo {
 	#footer.text-light { color: rgba(255,255,255,0.5) }
 
 #footer a, #footer p a {
-	color: rgba(0,0,0,0.35);
+	color: white;
 	border-color: rgba(0,0,0,0.35);
 	}
 	#footer a:hover, #footer p a:hover { color: #000000; }
-	#footer.text-light a, #footer.text-light p a {color: rgba(255,255,255,0.5);border-color: rgba(255,255,255,0.5); }
+	#footer.text-light a, #footer.text-light p a {color: white;border-color: rgba(255,255,255,0.5); }
 	#footer.text-light a:hover, #footer.text-light p a:hover { color: #ffffff; }
 
 #footer .widget-title {
@@ -1604,7 +1603,7 @@ header.text-light.action-is-active #logo img#dark-logo { opacity: 0 !important; 
 	position: relative;
 	z-index: 1;
 	}
-	#hero #page-title:not(.wrapper):not(.wrapper-small) { width: calc(100% - 80px); padding-left: 40px; padding-right: 40px; }
+	#hero #page-title:not(.wrapper):not(.wrapper-small) { width: calc(100% - 165px); padding-left: 40px; padding-right: 40px; margin-top: 20px}
 
 #page-body #page-title {
 	padding-bottom: 60px;
@@ -1708,9 +1707,8 @@ header.text-light.action-is-active #logo img#dark-logo { opacity: 0 !important; 
 
 /* side hero */
 #hero-and-body {
-	position: relative;
-	width: calc(100% - 80px);
-	margin-left: 80px;
+	position: relative
+	margin-top: 68px:
 	overflow: hidden;
 	}
 	header.header-right ~ #hero-and-body { margin-left: 0; }
@@ -1724,16 +1722,8 @@ header.text-light.action-is-active #logo img#dark-logo { opacity: 0 !important; 
 	#hero[class*='side-right'] { left: auto; right: 0; float: right; }
 	#hero[class*='side-left-small'], #hero[class*='side-right-small'] { width: 40%; }
 
-#hero[class*='side-'] ~ #page-body {
-	width: 50%;
-	float: right;
-	margin: 0;
-	}
 	#hero[class*='side-right'] ~ #page-body { float: left;   }
 	#hero[class*='side-left-small'] ~ #page-body, #hero[class*='side-right-small'] ~ #page-body { width: 60%; }
-
-header.header-left ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(.sticky_bottom) { margin-left: 80px; }
-header.header-right ~ #hero-and-body #hero[class*='side-right'].is_stuck:not(.sticky_bottom) { margin-right: 80px; }
 
 
 /* animation */
@@ -1749,19 +1739,8 @@ header.action-is-active ~ #hero-and-body #hero[class*='side-right'].is_stuck:not
 	header.header-right.menu-is-open ~ #hero-and-body #hero[class*='side-right'].is_stuck:not(.sticky_bottom),
 	header.header-right.action-is-active ~ #hero-and-body #hero[class*='side-right'].is_stuck:not(.sticky_bottom) { right: 300px; }
 
-header.menu-is-open ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(.sticky_bottom),
-header.action-is-active ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(.sticky_bottom) {
-	left: 300px;
-	-webkit-transition: left 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020), right 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020);
-	   -moz-transition: left 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020), right 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020);
-		 -o-transition: left 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020), right 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020);
-			transition: left 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020), right 849ms cubic-bezier(0.740, 0.215, 0.125, 1.020); /* custom */
-	transition-delay: 0.06s;
-	}
-	header.header-right.menu-is-open ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(.sticky_bottom),
-	header.header-right.action-is-active ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(.sticky_bottom) { left: -300px; }
 
-.is-scrolling header.menu-is-open ~ #hero-and-body #hero[class*='side-'] { transition: none !important; }
+
 
 
 /*----------------------------------------------
@@ -3134,6 +3113,7 @@ div .column-section:first-child, .fullwidth-section + .column-section { margin-t
 /*	spacer
 -------------------------------------------------*/
 div[class*='spacer-'] { display: block; }
+.spacer-tiny { height: 10px; }
 .spacer-mini { height: 20px; }
 .spacer-small { height: 40px; }
 .spacer-medium { height: 60px; }

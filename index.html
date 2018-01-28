@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
 
     <!-- FONTS -->
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" id="custom-style-css"  href="files/css/custom-agencycreative.css" type="text/css" media="all" />
@@ -17,6 +16,12 @@
 	<link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="responsive-css"  href="files/css/mqueries.css" type="text/css" media="all" />
   <link rel="stylesheet" id="custom-customer-css"  href="files/css/custom-sample.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="files/css/base--medium.css" media="only screen and (min-width: 700px), only screen and (min-device-width: 700px)" type="text/css">
+  <link rel="stylesheet" href="files/css/base--small.css" media="only screen and (max-width: 700px), only screen and (max-device-width: 700px)" type="text/css">
+<link rel="stylesheet" href="files/css/base--smallest.css" media="only screen and (max-width: 800px), only screen and (max-device-width: 800px)" type="text/css">
+  <link rel="stylesheet" href="files/css/base.css" type="text/css">
+
 
 
     <!-- FAVICON -->
@@ -49,62 +54,16 @@
 <!-- PAGE CONTENT -->
 <div id="page-content">
 
-	<!-- HEADER -->
-	<header id="header" class="header-left text-light">
-		<div class="header-inner clearfix">
-
-      <!-- MAIN NAVIGATION -->
-      <div id="menu" class="clearfix">
-
-          <div class="menu-actions">
-            <div class="menu-toggle"><span class="hamburger"></span></div>
-          </div> <!-- END .menu-actions -->
-
-          <div id="menu-inner">
-              <nav id="main-nav">
-                  <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="#">Portfolio</a>
-                        <ul class="sub-menu">
-                          <li><a href="assettoolkit.html">UserTesting Asset Toolkit</a></li>
-                          <li><a href="notable.html">Notable</a></li>
-                          <li><a href="bugblog.html">UserTesting Bug Blog</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="IndyaDodson_Resume_2018.pdf">Resume</a></li>
-                            <!----
-                      <li><a href="contact.html">Contact</a></li>
-                      ---->
-                  </ul>
-              </nav>
-          </div><!-- END #menu-inner -->
-      </div><!-- END #menu -->
-
-            <div id="header-actions">
-
-
-
-				<div class="header-totop">
-					<a class="totop" href="#">
-						<svg class="arrow arrow-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 35.35"><path d="M0,16.88a3,3,0,0,0,.16.94,1.51,1.51,0,0,0,.63.78l15,15a2.14,2.14,0,0,0,3.52.08,2.14,2.14,0,0,0-.08-3.52L8.59,19.38H57.5a2.5,2.5,0,1,0,0-5H8.59L19.22,3.59A2.14,2.14,0,0,0,19.3.08a2.14,2.14,0,0,0-3.52.08l-15,15a1.51,1.51,0,0,0-.62.78A3,3,0,0,0,0,16.88Z"></path></svg>
-					</a>
-          		</div>
-           	</div>
-
-            <div id="header-widget" class="social">
-				<ul class="socialmedia-widget">
-					<li class="linkedin"><a href="#"></a></li>
-					<li class="github"><a href="#"></a></li>
-					<li class="envelope"><a href="#"></a></li>
-				</ul>
-            </div>
-
-		</div> <!-- END .header-inner -->
-		<span class="pseudo-close header-close"></span>
-	</header>
-	<!-- HEADER end -->
-
+  <nav class= "nav-location">
+      <ul class="nav nav-project">
+        <li class="nav--nav-item"><a class="nav--nav-link nav-logo" href="index.html">INDYA DODSON</a></li>
+        <div class="nav--nav-link-sub">
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="index.html#page-body">WORK</a></li>
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="IndyaDodson_Resume_2018.pdf">RESUME</a></li>
+        </div>
+      </ul>
+    </nav>
 
     <!-- HERO & BODY -->
 	<div id="hero-and-body">
@@ -112,12 +71,12 @@
 		<!-- HERO  -->
 		<section id="hero" class="hero-full text-light" style="background:linear-gradient(to right, #0acffe 0%, #495aff 100%);">
 
-			<div id="page-title" class="wrapper">
-				<h1 class="h2">Hello! I’m <strong>Indya Dodson</strong>,<br> your friendly neighborhood <br><strong>UX Designer.</strong>
+			<div id="page-title">
+				<h1 id="title-mobile" class="h2">Hello! I’m <strong>Indya Dodson</strong>,<br> your friendly neighborhood <br><strong>UX Designer.</strong>
 
 </strong></h1>
 				<div class="spacer-medium"></div>
-				<h5>I would love to help you create your next experience</h5>
+				<h5>I would love to help you create your next experience.</h5>
 			</div>
 			<a href="#" id="scrolldown">
 				<svg class="arrow arrow-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 35.35"><title>back-arrow</title><path d="M0,16.88a3,3,0,0,0,.16.94,1.51,1.51,0,0,0,.63.78l15,15a2.14,2.14,0,0,0,3.52.08,2.14,2.14,0,0,0-.08-3.52L8.59,19.38H57.5a2.5,2.5,0,1,0,0-5H8.59L19.22,3.59A2.14,2.14,0,0,0,19.3.08a2.14,2.14,0,0,0-3.52.08l-15,15a1.51,1.51,0,0,0-.62.78A3,3,0,0,0,0,16.88Z"></path></svg>
@@ -227,22 +186,27 @@
 
     <!-- FOOTER -->
     <footer id="footer" class="text-light">
-       	<div class="footer-inner wrapper">
+        <div class="footer-inner wrapper">
 
             <div class="column-section clearfix">
 
 
-               		<div class="widget">
-						<p><a href="mailto:iidodson@yahoo.com" class="sr-button style-3 button-medium">Contact me</a></p>
-                  		<p><small>&copy; Copyright 2018 Indya Dodson</a></small></p>
-                   	</div>
+                  <div class="widget">
+                    <div class="footer-right">
+                      <a href="https://www.linkedin.com/in/iidodson" class="fa fa-linkedin fa-1x fa--nothome"></a>
+                      <a href="mailto:iidodon@captechu.edu" class="fa fa-envelope fa-1x fa--nothome"></a>
+                      <a href="https://dribbble.com/iidodson" class="fa fa-dribbble fa-1x fa--nothome"></a>
+                      <a href="https://github.com/iidodson" class="fa fa-github fa-1x fa--nothome"></a>
+                    </div>
+
+                    <p id="footer-words"><small>&copy; Copyright 2018 Indya Dodson</a></small></p>
+                    </div>
 
             </div>
         </div>
 
     </footer>
     <!-- FOOTER -->
-
 </div> <!-- END #page-content -->
 <!-- PAGE CONTENT -->
 

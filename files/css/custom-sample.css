@@ -15,3 +15,58 @@
     -webkit-transform: rotate(90deg); /* Safari 3-8 */
     transform: rotate(90deg);
 }
+
+li.nav--nav-item{
+	margin: 0 !important;
+}
+
+.nav-location{
+	position: fixed;
+	width: 100%;
+	z-index:99;
+	box-shadow: 4px 4px 25px rgba(0,0,0,0.20);
+}
+
+.nav-logo {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.team-infos {
+	text-align: center;
+}
+
+
+p#footer-words{
+	color: white;
+}
+
+
+
+
+.text-shadow--dark {
+	text-shadow: 4px 4px 25px black;
+}
+
+.about-fix {
+	display: flex;
+	margin-top: 120px;
+}
+
+.small-div{
+	width: 50%;
+}
+
+.big-div{
+	width: 50%;
+}
+
+img.rotate{
+	margin-bottom: 70px;
+}
+
+
+#active{
+	color: rgb(73, 90, 255);
+}

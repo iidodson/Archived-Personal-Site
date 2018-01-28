@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
 
     <!-- FONTS -->
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" type="text/css">
-
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
@@ -16,6 +15,12 @@
     <link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="responsive-css"  href="files/css/mqueries.css" type="text/css" media="all" />
   <link rel="stylesheet" id="custom-sample-css"  href="files/css/custom-sample.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="files/css/base--medium.css" media="only screen and (min-width: 700px), only screen and (min-device-width: 700px)" type="text/css">
+  <link rel="stylesheet" href="files/css/base--small.css" media="only screen and (max-width: 700px), only screen and (max-device-width: 700px)" type="text/css">
+<link rel="stylesheet" href="files/css/base--smallest.css" media="only screen and (max-width: 800px), only screen and (max-device-width: 800px)" type="text/css">
+  <link rel="stylesheet" href="files/css/base.css" type="text/css">
+
 
 
 
@@ -49,115 +54,68 @@
 <!-- PAGE CONTENT -->
 <div id="page-content">
 
-
-  	<!-- HEADER -->
-  	<header id="header" class="header-left text-light">
-  		<div class="header-inner clearfix">
-
-              <!-- MAIN NAVIGATION -->
-              <div id="menu" class="clearfix">
-
-                  <div class="menu-actions">
-                  	<div class="menu-toggle"><span class="hamburger"></span></div>
-                  </div> <!-- END .menu-actions -->
-
-                  <div id="menu-inner">
-                      <nav id="main-nav">
-                          <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="#">Portfolio</a>
-                              	<ul class="sub-menu">
-                									<li><a href="assettoolkit.html">UserTesting Asset Toolkit</a></li>
-                									<li><a href="notable.html">Notable</a></li>
-                									<li><a href="bugblog.html">UserTesting Bug Blog</a></li>
-  								              </ul>
-                              </li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="IndyaDodson_Resume_2018.pdf">Resume</a></li>
-                                    <!----
-                              <li><a href="contact.html">Contact</a></li>
-                              ---->
-                          </ul>
-                      </nav>
-                  </div><!-- END #menu-inner -->
-              </div><!-- END #menu -->
-
-              <div id="header-actions">
-
-
-
-  				<div class="header-totop">
-  					<a class="totop" href="#">
-  						<svg class="arrow arrow-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 35.35"><path d="M0,16.88a3,3,0,0,0,.16.94,1.51,1.51,0,0,0,.63.78l15,15a2.14,2.14,0,0,0,3.52.08,2.14,2.14,0,0,0-.08-3.52L8.59,19.38H57.5a2.5,2.5,0,1,0,0-5H8.59L19.22,3.59A2.14,2.14,0,0,0,19.3.08a2.14,2.14,0,0,0-3.52.08l-15,15a1.51,1.51,0,0,0-.62.78A3,3,0,0,0,0,16.88Z"></path></svg>
-  					</a>
-            		</div>
-             	</div>
-
-              <div id="header-widget" class="social">
-  				<ul class="socialmedia-widget">
-  					<li class="linkedin"><a href="#"></a></li>
-  					<li class="github"><a href="#"></a></li>
-  					<li class="envelope"><a href="#"></a></li>
-  				</ul>
-              </div>
-
-  		</div> <!-- END .header-inner -->
-  		<span class="pseudo-close header-close"></span>
-  	</header>
-  	<!-- HEADER end -->
+  <nav class= "nav-location">
+      <ul class="nav nav-project">
+        <li class="nav--nav-item"><a class="nav--nav-link nav-logo" href="index.html">INDYA DODSON</a></li>
+        <div class="nav--nav-link-sub">
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="index.html#page-body">WORK</a></li>
+          <li class="nav--nav-item nav--nav-item-sub"><a id="active" class="nav--nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="IndyaDodson_Resume_2018.pdf">RESUME</a></li>
+        </div>
+      </ul>
+    </nav>
 
     <!-- HERO & BODY -->
 	<div id="hero-and-body">
 
 		<!-- HERO  -->
 
-		<section id="hero" class="side-left">
+		<section class="about-fix" id="hero" >
 
-
-			<div id="page-title" class="align-center wrapper-small">
+			<div class="small-div">
         <div class="spacer-small"></div>
-
         <img class="rotate" src="files/uploads/IMG_4350.JPG" alt="SEO">
-
+        <div class="spacer-small"></div>
 			</div>
+      <div class="big-div">
+        <div class="wrapper">
+  				<h1 class="h2"><strong>Thanks for visiting!</strong></h1>
+  				<div class="spacer-small"></div>
+  				<h5>I’m Indya. I also go by Dya (your choice, I don’t mind). I focus on UX research, visual design, and interaction design. I’m finishing my bachelors degree in Computer Science but my true passion is UX design.</h5>
+          <div class="spacer-mini"></div>
+          <h5>For me, there is no better feeling than making products that are able to benefit the lives of others. People are what drive me to build meaningful and empathic experiences.</h5>
+  				<div class="spacer-mini"></div>
+  				<h5 class="title-alt">Outside of work, my hobbies include:</h5>
+  			</div><!-- END .wrapper -->
+
+  			<div class="spacer-mini"></div>
+
+  			<div class="wrapper">
+  				<div class="column-section clearfix">
+  					<div class="column one-half">
+  						<ul class="nolist">
+  							<li style="color:rgba(0,0,0,0.35);">Mentoring</li>
+  							<li style="color:rgba(0,0,0,0.35);">Traveling</li>
+  							<li style="color:rgba(0,0,0,0.35);">Fitness</li>
+  						</ul>
+  					</div>
+  					<div class="column one-third last-col">
+  						<ul class="nolist">
+  							<li style="color:rgba(0,0,0,0.35);">Volunteering</li>
+  							<li style="color:rgba(0,0,0,0.35);">Photography</li>
+  							<li style="color:rgba(0,0,0,0.35);">Reading</li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div> <!-- END .wrapper -->
+      </div>
+
 
     	</section>
 		<!-- HERO -->
 
 		<!-- PAGEBODY -->
-		<section id="page-body">
-
-			<div class="spacer-medium"></div>
-			<div class="wrapper">
-				<h1 class="h2"><strong>Thanks for visiting!</strong></h1>
-				<div class="spacer-small"></div>
-				<h5>I’m Indya. I also go by Dya (your choice, I don’t mind). I focus on UX research, visual design, and interaction design. I’m finishing my bachelors degree in Computer Science but my true passion is UX design.</h5>
-        <div class="spacer-mini"></div>
-        <h5>For me, there is no better feeling than making products that are able to benefit the lives of others. People are what drive me to build meaningful and empathic experiences.</h5>
-				<div class="spacer-mini"></div>
-				<h5 class="title-alt">Outside of work, my hobbies include:</h5>
-			</div><!-- END .wrapper -->
-
-			<div class="spacer-mini"></div>
-
-			<div class="wrapper">
-				<div class="column-section clearfix">
-					<div class="column one-half">
-						<ul class="nolist">
-							<li style="color:rgba(0,0,0,0.35);">Mentoring</li>
-							<li style="color:rgba(0,0,0,0.35);">Traveling</li>
-							<li style="color:rgba(0,0,0,0.35);">Fitness</li>
-						</ul>
-					</div>
-					<div class="column one-third last-col">
-						<ul class="nolist">
-							<li style="color:rgba(0,0,0,0.35);">Volunteering</li>
-							<li style="color:rgba(0,0,0,0.35);">Photography</li>
-							<li style="color:rgba(0,0,0,0.35);">Reading</li>
-						</ul>
-					</div>
-				</div>
-			</div> <!-- END .wrapper -->
+		<section >
 
 
 
@@ -169,18 +127,22 @@
     <!-- HERO & BODY -->
 
     <!-- FOOTER -->
-    <div class="spacer-small"></div>
-
     <footer id="footer" class="text-light">
-       	<div class="footer-inner wrapper">
+        <div class="footer-inner wrapper">
 
             <div class="column-section clearfix">
 
 
-               		<div class="widget">
-						<p><a href="mailto:iidodson@yahoo.com" class="sr-button style-3 button-medium">Contact me</a></p>
-                  		<p><small>&copy; Copyright 2018 Indya Dodson</a></small></p>
-                   	</div>
+                  <div class="widget">
+                    <div class="footer-right">
+                      <a href="https://www.linkedin.com/in/iidodson" class="fa fa-linkedin fa-1x fa--nothome"></a>
+                      <a href="mailto:iidodon@captechu.edu" class="fa fa-envelope fa-1x fa--nothome"></a>
+                      <a href="https://dribbble.com/iidodson" class="fa fa-dribbble fa-1x fa--nothome"></a>
+                      <a href="https://github.com/iidodson" class="fa fa-github fa-1x fa--nothome"></a>
+                    </div>
+
+                    <p id="footer-words"><small>&copy; Copyright 2018 Indya Dodson</a></small></p>
+                    </div>
 
             </div>
         </div>
