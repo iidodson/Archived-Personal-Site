@@ -75,6 +75,7 @@ html {
 
 .nav--nav-link {
   text-decoration: none;
+  font-weight: 300;
   text-transform: capitalize;
   color: black;
   position: relative;
@@ -434,7 +435,6 @@ p {
 }
 
 .active {
-  font-weight: 700;
   color: rgb(73, 90, 255) 100%);
 }
 

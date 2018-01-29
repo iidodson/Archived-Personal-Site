@@ -27,7 +27,7 @@ li.nav--nav-item{
 	box-shadow: 4px 4px 25px rgba(0,0,0,0.20);
 }
 
-.nav-logo {
+#nav-logo {
 	font-size: 18px;
 	font-weight: 500;
 }
