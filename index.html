@@ -23,8 +23,6 @@
 <link rel="stylesheet" href="files/css/base--smallest.css" media="only screen and (max-width: 800px), only screen and (max-device-width: 800px)" type="text/css">
   <link rel="stylesheet" href="files/css/base.css" type="text/css">
 
-
-
     <!-- FAVICON -->
     <link rel="shortcut icon" href="files/uploads/favicon.png"/>
 
@@ -39,6 +37,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-70762578-2');
+  
 </script>
 
 </head>
@@ -60,8 +59,8 @@
         <li class="nav--nav-item"><a id="nav-logo" class="nav--nav-link" href="index.html">INDYA DODSON</a></li>
         <div class="nav--nav-link-sub">
           <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="index.html#page-body">WORK</a></li>
-          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="about.html">ABOUT</a></li>
-          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="IndyaDodson_Resume.pdf">RESUME</a></li>
+          <!-- <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="about.html">ABOUT</a></li> -->
+          <li class="nav--nav-item nav--nav-item-sub"><a class="nav--nav-link" href="Indya Dodson- Resume.pdf">RESUME</a></li>
         </div>
       </ul>
     </nav>
@@ -70,14 +69,14 @@
 	<div id="hero-and-body">
 
 		<!-- HERO  -->
-		<section id="hero" class="hero-full text-light" style="background:linear-gradient(to right, #0acffe 0%, #495aff 100%);">
+		<section id="hero" class="hero-full text-light" style="background:linear-gradient(to right, #9900ff 0%, #6400ff 100%);">
 
 			<div id="page-title">
-				<h1 id="title-mobile" class="h2">Hello! I’m <strong>Indya Dodson</strong>,<br> your friendly neighborhood <br><strong>Software Engineer.</strong>
-
-</strong></h1>
+        <!-- <h1 id="title-mobile" class="h2">Hello! I’m <strong>Indya Dodson</strong>,<br> your friendly neighborhood <br><strong>Software Engineer.</strong> -->
+        <h1 id="loader-text" id="title-mobile" class="h2"</h1>
+        <h1 id="loader-text2" id="title-mobile" class="h2" ></h1>
 				<div class="spacer-medium"></div>
-				<h5>I would love to help you create your next experience.</h5>
+				<h5 id="text3">Thank you for taking the time to view my website. ❤️ </h5>
 			</div>
 			<a href="#" id="scrolldown">
 				<svg class="arrow arrow-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 35.35"><title>back-arrow</title><path d="M0,16.88a3,3,0,0,0,.16.94,1.51,1.51,0,0,0,.63.78l15,15a2.14,2.14,0,0,0,3.52.08,2.14,2.14,0,0,0-.08-3.52L8.59,19.38H57.5a2.5,2.5,0,1,0,0-5H8.59L19.22,3.59A2.14,2.14,0,0,0,19.3.08a2.14,2.14,0,0,0-3.52.08l-15,15a1.51,1.51,0,0,0-.62.78A3,3,0,0,0,0,16.88Z"></path></svg>
@@ -139,7 +138,7 @@
         </div> <!-- END .column-section -->
         <div class="spacer-medium"></div>
 
-      <div class="fullwidth-section text-light" style="background:linear-gradient(to right, #0acffe 0%, #495aff 100%);">
+      <div class="fullwidth-section text-light" style="background:linear-gradient(to right, #9900ff 0%,#6400ff 100%);">
         <div class="fullwidth-content wrapper-big align-center">
           <h3>My Process</h3>
           <div class="spacer-medium"></div>
@@ -154,23 +153,26 @@
       </div>
       <div class=" do-anim column one-fourth">
         <ul class="nolist biglist ">
-          <li>UX Research</li>
-          <li>User-centered Design</li>
-          <li>Analytics</li>
+          <li style="font-weight: 500;">Languages</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>Java</li>
         </ul>
       </div>
       <div class="do-anim column one-fourth">
         <ul class="nolist biglist">
-          <li>Rapid Prototyping</li>
-          <li>Visual Design</li>
-          <li>Interaction Design</li>
+          <li style="font-weight: 500;">Frameworks</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>Angular</li>
         </ul>
       </div>
       <div class="do-anim column one-fourth last-col">
         <ul class="nolist biglist">
-          <li>Information Architecture</li>
-          <li>Wireframing</li>
-          <li>Frontend Development</li>
+          <li style="font-weight: 500;">Bonus Experience</li>
+          <li>UX/UI Design</li>
+          <li>Agile and Scrum</li>
+          <li>Product Management</li>
         </ul>
       </div>
     </div> <!-- END .column-section -->
@@ -200,7 +202,7 @@
                       <a href="https://github.com/iidodson" class="fa fa-github fa-1x fa--nothome"></a>
                     </div>
 
-                    <p id="footer-words"><small>&copy; Copyright 2019 Indya Dodson</a></small></p>
+                    <p id="footer-words"><small>&copy; Copyright 2020 Indya Dodson</a></small></p>
                     </div>
 
             </div>
@@ -212,6 +214,42 @@
 <!-- PAGE CONTENT -->
 
 <!-- SCRIPTS -->
+<script>
+  var i = 0;
+  var j = 0;
+  var txt = "Hello! I'm Indya Dodson.";
+  var txt2 = "A Software Engineer dedicated to my community.";
+  var speed = 80;
+  var speed2 = 60;
+
+  window.onload = function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("loader-text").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+      if(i == txt.length -1){
+        function write2() {
+          if (j < txt2.length) {
+            document.getElementById("loader-text2").innerHTML += txt2.charAt(j);
+            j++;
+            setTimeout(write2, speed2);
+            }
+            
+          }
+        }
+        
+        write2()
+
+      }
+    }
+  
+
+ 
+
+
+
+  </script>
+
 <script src="files/js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="files/js/plugins.js"></script>
 <script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>

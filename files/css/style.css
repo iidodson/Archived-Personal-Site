@@ -1243,7 +1243,7 @@ header #logo img#dark-logo + img#light-logo {
 
 	}
 	header.header-right ~ #footer { margin-left: 0px;}
-	#footer.text-light { background: linear-gradient(to right, #0acffe 0%, #495aff 100%); border-color: rgba(255,255,255,0.21); }
+	#footer.text-light { background: linear-gradient(to right, #9900ff 0%,#6400ff 100%); border-color: rgba(255,255,255,0.21); }
 
 #footer .footer-inner {
 	padding: 60px 0;
@@ -2047,7 +2047,7 @@ header.action-is-active ~ #hero-and-body #hero[class*='side-right'].is_stuck:not
 	        transition: opacity 0.6s ease;
 	transition-delay: 0.9s;
 	}
-	#page-loader.text-light { background: linear-gradient(to right, #0acffe 0%, #495aff 100%); }
+	#page-loader.text-light { background: linear-gradient(to right, #9900ff 0%, #6400ff 100%); }
 	.loaded #page-loader { opacity: 0; transition-delay: 0.9s; }
 	.loading-end #page-loader { display: none; }
 
